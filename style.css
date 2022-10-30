@@ -1,0 +1,49 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 30px;
+padding: 35px;
+color: black;
+border-top: 7px solid #272727;
+background: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3em;
+    margin: 0.1em;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#content {
+    border-top: 1px dotted rgb(163, 163, 163);
+}
+
+#signup {
+    line-height: 3em;
+}
+
+.content-post {
+    border-bottom: 1px dotted #ccc;
+}
+
+a[target]{
+    background-color: yellow;
+}
+
+img {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+

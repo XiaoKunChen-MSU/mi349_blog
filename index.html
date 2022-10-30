@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Two blogs</title>
 </head>
 <body>
     <nav>
-        <a href="https://beautiful-conkies-484da5.netlify.app">Go to XiaoKun Chen's Resume page</a><br>
-        <a href="https://dulcet-wisp-15be0b.netlify.app">Contact us!!!</a>
+        <a href="https://beautiful-conkies-484da5.netlify.app" target="_resume">Go to XiaoKun Chen's Resume page</a><br>
+        <a href="https://dulcet-wisp-15be0b.netlify.app" target="_contact">Contact us!!!</a>
     </nav>
     <header>
         <h1>XiaoKun Chen's favorite two blogs</h1>
     </header>
-    <section>
-        <article>
+    <section id="content">
+        <article class="content-post">
             <h2>AI is Not Magic: It’s Time to Demystify and Apply</h2>
             <p>Author: Rob Thomas</p>
             <p>Date: <time datetime="2019-03-20"> March 3, 2019</time></p>
@@ -102,7 +103,7 @@
                     This is where your models live for exploitation and enables lifecycle management of all AI. 
                     Lastly, it offers proof and explain-ability for decisions made by AI.</li>
             </ol>
-            <a href="https://www.ibm.com/blogs/think/2019/03/ai-is-not-magic/">Click here to see the original blog</a>
+            <a href="https://www.ibm.com/blogs/think/2019/03/ai-is-not-magic/" target="_oriblog">Click here to see the original blog</a>
         </article>
         <article>
             <h2>How Data and Analytics Can Power a Transformation in Long-Term Disability</h2>
@@ -158,13 +159,13 @@
                 protection for employees under HIPAA and other regulations. The IBM Health platform and blockchain are a perfect fit for 
                 these challenges, providing HIPAA-enabled big data platforms, trust across blockchain networks and a neutral outside party
                  to extract relevant insights and trends.</p>
-            <a href="https://www.ibm.com/blogs/think/2019/08/how-data-and-analytics-can-power-a-transformation-in-long-term-disability/">
+            <a href="https://www.ibm.com/blogs/think/2019/08/how-data-and-analytics-can-power-a-transformation-in-long-term-disability/" target="_oriblog">
             click here to see the original blog</a>
         </article>
     </section>
     <section>
         <form>
-            <label>
+            <label id="signup">
                 Sign up for our newsletter
                 <input type="text">
             </label>
