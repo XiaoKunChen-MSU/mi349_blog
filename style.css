@@ -38,7 +38,7 @@ p {
 }
 
 a[target]{
-    background-color: yellow;
+    background-color: white;
 }
 
 img {
@@ -47,3 +47,36 @@ img {
     margin-left: 0px;
 }
 
+.position-display {
+    position: sticky;
+    top:0;
+}
+
+
+#workers {
+    float: right;
+    width: 500px;
+    margin-left: 10px;
+}
+
+div {
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+    color: gray;
+}
+
+form {
+    background:white;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    display: block;
+    margin:auto;
+    width: 100px;
+    height: 35px;
+}
